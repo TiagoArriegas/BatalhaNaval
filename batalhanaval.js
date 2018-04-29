@@ -7,15 +7,15 @@
 	var parte4 = parte3 +1;
 
 	var jogada;
-var atingidas = 0;
-var totalJogadas = 0;
+	var atingidas = 0;
+	var totalJogadas = 0;
 
-var foiAfundado = false;
+	var foiAfundado = false;
 
 
 while (foiAfundado == false) {
 
-   jogada = prompt("Podes jogar - Escolhe um numero entre 1 e 7:");
+   jogada = prompt("Escolhe um numero entre 1 e 30:");
 
    if (jogada < 1 || jogada > 30) {
 
